@@ -1,0 +1,36 @@
+{
+  "name": "vuejs-testbed",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "Frank",
+  "private": true,
+  "scripts": {
+    "start": "npm run dev && node server.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express-session": "^1.16.2",
+    "jsonwebtoken": "^8.5.1",
+    "tedious": "^6.3.0",
+    "tedious-connection-pool": "^1.0.5",
+    "vue": "^2.2.1",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^6.4.1",
+    "babel-preset-latest": "^6.0.0",
+    "cross-env": "^3.2.4",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "vue-loader": "^11.1.4",
+    "vue-template-compiler": "^2.2.1",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.11.5"
+  }
+}
